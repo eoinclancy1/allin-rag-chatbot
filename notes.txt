@@ -1,0 +1,19 @@
+transcribing
+- https://medium.com/nlplanet/transcribing-youtube-videos-with-whisper-in-a-few-lines-of-code-f57f27596a55
+
+introduction to embeddings
+- https://www.youtube.com/watch?v=ySus5ZS0b94&t=415s&ab_channel=AdrianTwarog
+
+preparation for embedding
+- https://community.openai.com/t/preparing-the-dataset-for-embeddings/110977/2
+- Embedding length: https://community.openai.com/t/the-length-of-the-embedding-contents/111471/37
+- text vs accuracy: https://community.openai.com/t/embedding-text-length-vs-accuracy/96564/4
+- prep for embedding: https://community.openai.com/t/preparing-data-for-embedding/23955/12 
+- structure csv for embedding: https://community.openai.com/t/how-to-best-structure-csv-embeddings-to-elicit-clear-and-correct-answers-from/307487
+
+chunking strategies
+- https://www.pinecone.io/learn/chunking-strategies/
+
+
+Impacted by deprecation of text-davinci-003
+-- needed to run pip install --upgrade pip -------- then openai then langchain 

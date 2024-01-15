@@ -1,0 +1,11 @@
+Each of the csvs in the format "clean_xx.csv" were created as follows:
+
+1. Run AllInChatbot/transcriptions/transcription_cleanup_V2.py to generate the best-effort split into Q&As on the raw text file 
+2. Open the "xxv2_1.csv" file in automated_QA_csv folder
+3. Add the metadata columns ['Topic', 'Sub-topic', 'Speaker', 'Question', 'Answer'] to the first row.
+4. Trim the beginning, end and any other portion of the material that is not relevant to what should be embedded (eg. intro song, introductions, ads, closing remarks)
+    These serve as a clean way to deliniate the questions into sections, and should help with further model developments
+5. Review the question + answer in each row to verify that it was accurately split 
+    In some cases, rows need to be merged: E.g if the interviewer asked a multi-part question
+    In others, rows need to be split: E.g if the transcription went awry or when question was posed in the form of a comment, etc.
+6. Once the sheet is accurate to the best of your ability
